@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">MyContacts</string>
+
+  <string name="title_create_contact">Create contact</string>
+  <string name="button_save">Save</string>
+  <string name="text_add_picture">Add picture</string>
+  <string name="text_create_new_contact">Create new contact</string>
+
+  <string name="hint_first_name">First name</string>
+  <string name="hint_last_name">Last name</string>
+  <string name="hint_phone">Phone</string>
+
+  <string name="error_message_name">Name can not be empty</string>
+  <string name="error_message_phone">Phone can not be empty</string>
+</resources>
