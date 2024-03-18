@@ -27,6 +27,6 @@ class ContactsRepoImpl @Inject constructor(private val realm: Realm) : ContactsR
       .query<ContactsEntity>()
       .asFlow()
       .map {
-        it.list.toList()
+         it.list.toList()
       }
 }
