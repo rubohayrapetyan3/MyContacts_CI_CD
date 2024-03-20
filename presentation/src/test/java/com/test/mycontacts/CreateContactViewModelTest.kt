@@ -28,7 +28,7 @@ class CreateContactViewModelTest {
     val given = "Armen"
     viewModel.onEvent(CreateContactContract.CreateContactEvent.NameChangedEvent(given))
     val expect = viewModel.state.name
-    assertEquals(given, expect)
+    assertEquals(given, "expect")
   }
 
   @Test
